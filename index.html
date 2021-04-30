@@ -3,15 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("musem.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  
+  background-size: 1367px 669px;
 }
 
 .topnav {
@@ -42,6 +40,38 @@ body {
   background-color: #4CAF50;
 }
 
+#bg
+{
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 1024px;
+    z-index:1;
+}
+.bgone
+{
+    margin: 0px;
+    position: absolute;
+    width:100%;
+    height: 1024px;
+    background-image:url(../images/one.jpg);
+    background-position:top;
+    background-repeat:repeat-x;
+    z-index:2;
+}
+.bgtwo
+{
+    margin: 0px;
+    position: absolute;
+    width:100%;
+    height: 1024px;
+    background-image:url(../images/two.jpg);
+    background-position:top;
+    background-repeat:repeat-x;
+    z-index:3;
+}
 #container
 {
     position:relative;
@@ -55,40 +85,24 @@ body {
 #button1:hover {
   background-color: #555555;
   color: white;
-  opacity: 0.5;
 }
 
-.card {
-  max-width: 200px;
-  text-align: center;
-  font-family: sans-serif;
-  display: inline-block;
-  padding: 15px;
-  background-color:grey;
-}
-.price {
-  color: darkblue;
-  font-size: 22px;
-}
-.card button {
-  padding: 12px;
-  color: black;
-  background-color: blue;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-  border-radius: 50%;
-}
-.card button:hover {
-  background-color: green;
-  color: white;
-}
-.i:hover{
-  opacity: 0.5;
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr
 }
 
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px  white;
+  padding: 20px; 
+  width: 1306px;
+  height: 50px;
+}
 </style>
+
+
+
 </head>
 <body>
 
@@ -110,6 +124,29 @@ body {
 
 <hr style="height:2px;width: 75%; border-width:0;color:gray;background-color:gray">
 <br><br>
+<h1 style="color: white; padding-left: 2%;">Virtual exhibitions and events</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Hi</h1>
+<br><br>
+<h1 style="color: white;">Virtual visit</h1>
+<br><br>
+
+</div>
+
+<div>
+  <p>Hello</p>
 </div>
 
 </body>

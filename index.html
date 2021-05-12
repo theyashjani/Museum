@@ -2,7 +2,7 @@
 <html >
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <style>
   html{
     scroll-behavior: smooth;
@@ -83,17 +83,19 @@ element::-webkit-scrollbar {
   font-family: sans-serif;
   display: inline-block;
   padding: 15px;
-  background-color:white;
+  background-color:grey;
 }
 .price {
   color: darkblue;
   font-size: 22px;
 }
-
 .card button:hover {
+  background-color: green;
   color: white;
 }
-
+.i:hover{
+  opacity: 0.5;
+}
 
 #container
 {    
@@ -220,8 +222,8 @@ var currentScrollPos = window.pageYOffset;
 <!-- work in progress for virtual visit -->
 <h1 style="color: white;"></h1>
 <br><br>
- <div align="center">
-   <button style="border-radius: 30px; align-content: center; padding: 1%; font-size: 30px;">Donate</button>
+ <div>
+   <button style="border-radius: 2px; align-content: center;">Donate</button>
  </div>
 </div>
 
@@ -342,6 +344,5 @@ var currentScrollPos = window.pageYOffset;
 </div>
 </body>
 <br><br><br>
-
 <footer></footer>
 </html>

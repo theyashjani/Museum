@@ -1,0 +1,515 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"all",
+				"alligator1"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"pref",
+				"prefix_str"
+			],
+			[
+				"pre",
+				"previous_hash"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"t",
+				"text-top\tvertical-align"
+			],
+			[
+				"corn",
+				"corndeity1"
+			],
+			[
+				"mirr",
+				"mirrorbearer1"
+			],
+			[
+				"earf",
+				"earflare"
+			],
+			[
+				"ear",
+				"earflare"
+			],
+			[
+				"mo",
+				"Monumental"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"paddig",
+				"padding-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"bott",
+				"padding-bottom\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin-left"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"conta",
+				"Contact"
+			],
+			[
+				"mot",
+				"mortuary"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"div",
+				"div1"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bu",
+				"button6"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"padding-",
+				"padding-right\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"eg",
+				"egypt1"
+			],
+			[
+				"sa",
+				"sabertooth2"
+			],
+			[
+				"sab",
+				"sabertooth1"
+			],
+			[
+				"elk",
+				"elk3"
+			],
+			[
+				"over",
+				"overflow-x\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/yash-jani/Documents/blobutton.html",
+			"settings":
+			{
+				"buffer_size": 3106,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/americaall.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/mainpage.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/demo3.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/demo 2.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/index.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/mainpagetest1.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/test.html",
+		"/home/yash-jani/test folder/demo.html",
+		"/home/yash-jani/Downloads/jq-full-screen-slider/dist/index.html",
+		"/home/yash-jani/Downloads/jq-full-screen-slider/dist/script.js",
+		"/home/yash-jani/Downloads/jq-full-screen-slider/dist/style.css",
+		"/home/yash-jani/test folder/test5.html",
+		"/home/yash-jani/test folder/demo (3).html",
+		"/home/yash-jani/Downloads/demo (2).html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/all animals.html",
+		"/home/yash-jani/Downloads/fullscreen-css-background-image-slideshow/dist/style.css",
+		"/home/yash-jani/Downloads/fullscreen-css-background-image-slideshow/dist/index.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/animalsmainpage.html",
+		"/home/yash-jani/Downloads/mainpage/mainpage/mainpage1.html",
+		"/home/yash-jani/btc_mining.py",
+		"/home/yash-jani/test folder/test4.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/save orangutan.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/test4.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/save polar bear.html",
+		"/home/yash-jani/Downloads/blobs-button/dist/style.css",
+		"/home/yash-jani/Documents/blobutton.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/censerking.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/spoutedjar.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/earflare.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/mirrorbearer.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/carvedbowl.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/headpendent.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/monumentalfigure.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/corndeity.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/raingod.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/doublevessel.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/seatedfigure.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/deityfigure.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/mayasculpture.html",
+		"/home/yash-jani/wildlifereport.txt",
+		"/home/yash-jani/Downloads/lightslider/dist/index.html",
+		"/home/yash-jani/Downloads/lightslider/dist/style.css",
+		"/home/yash-jani/Downloads/lightslider/dist/script.js",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/test3.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/sidescroll.html",
+		"/home/yash-jani/Downloads/simple-scroll-animation/dist/index.html",
+		"/home/yash-jani/only text muesm.txt",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/teotihuacan.html",
+		"/home/yash-jani/Documents/ANIMALS may 22/ANIMALS/orangutan.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/sculpture.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/tikal.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/inca.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/maya.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/aztecs.html",
+		"/home/yash-jani/Downloads/simple-scroll-animation/dist/script.js",
+		"/home/yash-jani/Downloads/simple-scroll-animation/dist/style.css",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/only text muesm.txt",
+		"/home/yash-jani/Downloads/mainpage/mainpage/mainpage.html",
+		"/home/yash-jani/Downloads/untitled folder (4)/untitled folder/baboon habitat.html",
+		"/home/yash-jani/Documents/giraffetest.html",
+		"/home/yash-jani/Downloads/search-box-in-content-moves-to-fixed-header/dist/style.css",
+		"/home/yash-jani/Downloads/search-box-in-content-moves-to-fixed-header/dist/script.js",
+		"/home/yash-jani/Downloads/search-box-in-content-moves-to-fixed-header/dist/index.html",
+		"/home/yash-jani/Documents/ANIMALS/ANIMALS/demo (1).html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/histking.html",
+		"/home/yash-jani/Downloads/demo.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/mesopotamia.html",
+		"/home/yash-jani/Downloads/untitled folder (2)/untitled folder/hippo habitat.html",
+		"/home/yash-jani/Documents/habitats/habitats/giraffe habitat.html",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/TargetView.js",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/style.css",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/Model.js",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/main.js",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/InfoView.js",
+		"/home/yash-jani/Downloads/scrollimator-master/examples/simple/index.html",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/js/jquery.boxloader.min.js",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/js/jquery.js",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/js/main.js",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/js/jquery.boxloader.js",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/css/normalize.css",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/css/main.css",
+		"/home/yash-jani/Downloads/boxLoader-Jquery-Plugin-master/index.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/luxor.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/motuarytemple.html",
+		"/home/yash-jani/Documents/ANIMALS/ANIMALS/anaconda.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/monuments.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/abusimbel.html",
+		"/home/yash-jani/Downloads/oryx/oryx/oryx habitat.html",
+		"/home/yash-jani/Downloads/spider/spider/spider habitat.html",
+		"/home/yash-jani/Downloads/polar bear/polar bear/polar bear habitat.html",
+		"/home/yash-jani/Downloads/gharial/gharial/swarmp1.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/egyptinvent.html",
+		"/home/yash-jani/Downloads/scrollimator-master/dist/Scrollimator.js",
+		"/home/yash-jani/Documents/new report.txt",
+		"/home/yash-jani/Downloads/gharial/gharial/swarmp.html",
+		"/home/yash-jani/Downloads/imagemaptest/imagemaptest/lion habitat.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/greatsphinx.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/contactus.html",
+		"/home/yash-jani/Downloads/imagemaptest/imagemaptest/demo.html",
+		"/home/yash-jani/Downloads/imagemaptest/untitled folder/demo.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/imagetest.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/naophorous.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/colosol.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/sphinxofhat.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/amunra.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/shabti.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/colosolamenhtop.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/colosol.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/test.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/rosetta.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/nefertiti.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/sculpture.html",
+		"/home/yash-jani/Documents/MUSEUM(YASHC) 17 may/MUSEUM(YASHC)/deinosuchus.html",
+		"/home/yash-jani/Desktop/snow leo/snowleo.html",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow)/test.html",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow)/snowleo.html",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow)/script.js",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow)/style.css",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow))/test.html",
+		"/home/yash-jani/Desktop/untitled folder (1)/untitled folder/slideshow.html",
+		"/home/yash-jani/Desktop/untitled folder (1)/snow leopard (slideshow))/slideshow.html",
+		"/home/yash-jani/Downloads/untitled folder/untitled folder/snowleo.html",
+		"/home/yash-jani/Downloads/untitled folder/untitled folder/slideshow.html",
+		"/home/yash-jani/Downloads/auto-manual-image-slideshow/dist/slideshow.html",
+		"/home/yash-jani/Downloads/auto-manual-image-slideshow/dist/index.html",
+		"/home/yash-jani/Desktop/MUSEUM(YASHC)/MUSEUM(YASHC) main/histking.html",
+		"/home/yash-jani/Downloads/auto-manual-image-slideshow/dist/style.css",
+		"/home/yash-jani/Downloads/auto-manual-image-slideshow/dist/script.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"next",
+			"images",
+			"hyea",
+			"images/",
+			"images/\n",
+			"images/",
+			"fish",
+			"images/",
+			"color",
+			"stable",
+			"images/",
+			"ul",
+			"color",
+			"images/",
+			"back",
+			"images/",
+			"tochan",
+			"fixed",
+			"images/",
+			"images",
+			"/images",
+			"panda",
+			"}",
+			"hai"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/yash-jani/Documents/blobutton.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "americaall.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

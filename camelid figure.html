@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Camelid Figure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:390px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Camelid figurine<br><br>
+
+    1400–1533
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+      This male camelid figurine, potentially representing a llama, has a solid head and a hollow body. While many similar camelid figurines are made of hammered sheet, X-radiography confirms that this figurine was cast by the lost wax method (see image 3) in two distinct casting stages to achieve different metallic effects. The first step was the casting of the llama’s head (see image 4), neck, torso (see image 5), and tail (see image 6), as well as its legs, with a silver-copper-gold alloy. As part of this first step, the wax form of the torso was modelled around a ceramic core that now forms a hollow space within the camelid’s body (the space is not visible to the viewer as it has been covered over by a silver metal plug at the chest, visible in the X-ray). The second casting step was the creation of the head and upper or rear elements of the body and tail in a more gold-rich silver metal. This second casting operation was accomplished by casting directly onto the solidified silver-rich portions.<br><br>
+
+	  X-radiography reveals extensive porosity throughout most of the silver metal areas, a feature caused by gas trapped in the molten metal during casting, which contrasts with a lack of porosity in the gold-rich areas. This difference suggests that the second step in casting may have been undertaken to correct flaws or areas of weakness associated with the porosity in the first. XRF analysis of the two metal elements indicates that the silver-rich metal contains approximately 72% silver, 20% copper and 7% gold while the more gold-rich areas contain roughly 50% silver, 42% gold, and 8% copper. Following casting, the metal worker employed tracing and engraving tools to form the details of the inner ear, the eyes, the nostrils, the mouth, and the toes.<br><br>
+
+	  The object may be considered a huaca, a Quechua and Aymara word for a sacred being among Andean peoples. Huacas may take the form of artificial anthropomorphic or zoomorphic objects, as well as rocks, mountains, and mineral sources (Cruz 2009). Throughout the Andes, camelids, including two wild and two domesticated species, are prized for their wool and meat (Moore 2016). For the Incas, their human ancestors, along with camelids, were thought to have come into existence from a cave at Pacariqtambo. In the Andes, camelids, whose hides and bones were turned into a range of products, are charged with carrying goods as part of caravans.<br><br>
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="camelid1.jpeg">
+            <img src="camelid1.jpeg" />
+        </li>
+        <li data-thumb="camelid2.jpeg">
+            <img src="camelid2.jpeg" />
+        </li>
+
+        <li data-thumb="camelid3.jpeg">
+            <img src="camelid3.jpeg" />
+        </li>
+        
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

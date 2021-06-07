@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Corn Deity</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:430px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Young Corn Deity<br><br>
+    8th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+      This hand-modeled ceramic sculpture depicts the head and torso of a youthful Maize God emerging from the center of a ripe ear of corn. The young Maize God has idealized facial features and elongated head. He wears a fringed headdress, perhaps of feathers, that has flattened and turned back fringes at the top-center. He wears a beaded necklace and ear spools with projecting centers. He folds his arms across his chest, proper left under proper right, resting his forearms atop the folded down corn husk in the center of the sculpture.<br><br>
+      
+      The ear of corn sprouts from a long, narrow stem that is unadorned except for some minor areas of extant blue pigment. A tall, almond-shaped leaf stands upright behind the figure with three vertical lines gently incised on its outer surface (the back of the sculpture); another leaf of similar shape and size folds gently down in front to reveal six grains of corn arranged in two parallel vertical rows visually separated by three incised lines. A third blade-like leaf, shorter and narrower than the others, projects diagonally from the proper left side of the sculpture.<br><br>
+      
+      This object is probably from Jaina Island (present-day Campeche) in Mexico. It bears striking similarities to other hand-modeled Jaina figurines and effigies that depict deities emerging from flowers or other vegetation. While the depiction of identifiable deities is relatively uncommon in Jaina figurines, this sub-group of Jaina sculpture seems to portray gods exclusively.<br><br><br>
+
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="corndeity1.jpeg">
+            <img src="corndeity1.jpeg" />
+        </li>
+        <li data-thumb="corndeity2.jpeg">
+            <img src="corndeity2.jpeg" />
+        </li>
+        <li data-thumb="corndeity3.jpeg">
+            <img src="corndeity3.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

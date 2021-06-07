@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Coiled Serpent</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:520px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Coiled Serpent<br><br>
+
+    15th–early 16th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+    Serpents held an important place in the belief systems of many peoples in ancient Mexico and they are the most frequently portrayed animals in art. Serpents had multiple connotations and inspired sky and earth imagery alike. Above all, they were fertility symbols, probably suggested by their terrestrial habitat and periodic skin shedding. At the Main Temple in the Aztec imperial capital Tenochtitlan, serpent depictions proliferate: monumental snake heads, probably representing different species—with open fanged mouths and forked tongues—flank braziers and stairways leading to the sanctuaries. The temple itself is said to have been surrounded at the time of the Spanish conquest by a serpent wall, or Coatepantli, formed by hundreds of adjoining sculptures of snakes. In three-dimensional stone sculpture, serpents are most frequently shown coiled or knotted, as in this example. Carved from a porous stone, the body of the reptile is a tightly wound knot; the tail end with two rattles in shallow relief is visible on one side. Its flattened head, emerging from the tangled body at the top, has a pointed, closed mouth, and sunken oval eyes under bulbous supraorbital ridges. The function of this snake sculpture is uncertain.
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="coiledserpent1.jpeg">
+            <img src="coiledserpent1.jpeg" />
+        </li>
+        <li data-thumb="coiledserpent2.jpeg">
+            <img src="coiledserpent2.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Censer king</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:440px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Seated Figure Censer (Incensario)<br><br>
+
+    5th–6th century
+
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+    This imposing incense burner depicts a Maya ruler wearing a large, elaborate headdress and jewelry assemblage. The figure sits cross-legged atop a hemispherical dome and holds a group of ritual implements, including a round plaque which may represent a mirror, in front of his chest cascading down in front of his torso. Jade beads, in the form of round appliques that would once have been painted blue-green, decorate the ankles, biceps, nostrils, and shoulders of the figure. The main chamber of the censer below contains a stylized series of sculpted and painted bundle motifs, including crenulated jaguar pelts, a beaded medallion, a knot of rope, and what may be a shark tooth and canine fangs.
+
+The seated figure may be a depiction of an Early Classic (ca. A.D. 250–550) Maya ruler. At least four other incense burner lids of the same type exist, and one contains a hieroglyphic name in the medallion on the front of the headdress. If once present, such a painted name is missing from the circular medallion in the current example. The headdresses of the rulers in the set vary greatly, suggesting a group of different rulers, or perhaps a single ruler impersonating different deities. This ruler’s headdress contains wide spiraled eyes underlined by beaded motifs directly above the forehead of the individual. A wide strap that borders the face and attaches below the chin may be a representation of the jaws of the deity; the ruler’s face thus emerges from the maw of the supernatural. A beaded headband contains two splays of feathers to the left and to the right. The elaborate earflare assemblage, including round flares supported by a perpendicular cylindrical post through each, contains tri-lobed ornaments below and a spiraled element above. The large ear ornaments cross the plane between real and mythical; the viewers see them as simultaneously worn by both the ruler and the deity.
+
+Incense, in the form of tree resins such as copal (Protium copal), was a key component of ancient Maya rituals, as well as in contemporary rituals of Maya descendants. Ritual practitioners and royal families made offerings of burning incense to communicate with ancestors and deities in the supernatural realm. Maya artists depicted fragrant incense smoke in monumental sculpture and paintings; clouds of smoke were vehicles for ancestors to communicate with the living. This incense burner and others like it may depict ancestors of the rulers who burned incense in their chambers, or they may have been used to venerate a ruler after death, with the sacred smoke encouraging his apotheosis.
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb=".jpeg">
+            <img src="censorkking.jpeg" />
+            <img src="censorkking.jpeg" />
+        </li>
+        <li data-thumb=".jpeg">
+            <img src="censorkking1.jpeg" />
+            <img src="censorkking1.jpeg" />
+        </li>
+        
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

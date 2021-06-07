@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Necklace Ornaments, Frogs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:500px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Necklace Ornaments, Frogs<br><br>
+
+    15th–early 16th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+    Necklaces made of numerous small beads often in the form of animals, including shells, turtles, and frogs, are among the many types of gold ornaments worn by Aztec nobility. These creatures are all associated with water and rain and the sustenance it assures. Fertility connotations of frogs and turtles are further supported by the fact that these animals lay thousands of eggs and assume a squatting position similar to that of women in childbirth.<br><br>
+
+    The ornaments were cast individually by the lost-wax process, each with its own separate clay mold which was broken after casting to release the object, explaining the slight differences in size and detail. These ornaments are said to have been found in the southern Mexico state of Chiapas.<br><br>
+
+    Ancient Mexican gold objects are usually attributed to the Mixtec people, contemporaries of the Aztecs in southern Mexico. Important burials in the state of Oaxaca particularly have yielded the most impressive and technologically accomplished works in gold. The Mixtecs were renowned as the finest craftsmen in the land and perfected the art of casting from wax models. Undoubtedly their talent was much sought after by the Aztec elite. Since virtually none of the exquisite gold ornaments offered to the Spanish conquerors by the Aztecs and described by eyewitnesses survive, the distinction between Mixtec and Aztec gold objects is problematic.<br><br>
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="frognecklace.jpeg">
+            <img src="frognecklace.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

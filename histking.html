@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background-color: black;
+  }
+* {
+box-sizing: border-box;
+}
+h1 {
+text-align: center
+;}
+.outer-grid {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.inner-grid {
+flex: 25%;
+max-width: 50%;
+padding: 0 4px;
+}
+.inner-grid img {
+margin-top: 8px;
+width: 100%;
+padding: 10px;
+}
+@media screen and (max-width: 800px) {
+.inner-grid {
+flex: 50%;
+max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.inner-grid {
+flex: 100%;
+max-width: 100%;
+}
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+  <style type="text/css">
+    .fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(window).on("load", function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity") == 0) {
+          $(this).fadeTo(500, 1);
+        }
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity") == 1) {
+          $(this).fadeTo(500, 0);
+        }
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+  </script>
+
+</style>
+</head>
+<body>
+<h1 style="color: white;">The most famous rulers of Egypt</h1>
+<!--
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="tutankhamun.html1"><img src="tutankhamun1.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Tutankhamun</figcaption>
+</div>
+<div class="fade">
+   <a href="akhenaten.html2"><img src="akhenaten.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Akhenaten</figcaption>
+</div>
+<div class="fade">
+  <a href="ramses.html3"><img src="ramses.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Ramses II</figcaption>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="cleopetra.html4"><img src="cleopetra.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Cleopatra VII</figcaption>
+</div>
+<div class="fade">
+  <a href="thutmose.html5"><img src="thutmose.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Thutmose</figcaption>
+</div>
+<div class="fade">
+  <a href="thutmose.html6"><img src="egypt1.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Amenhotep 3</figcaption>
+</div>
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="thutmose.html7"><img src="ramses.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Ramses II</figcaption>
+</div>
+<div class="fade">
+  <a href="thutmose.html8"><img src="egypt1.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <img src="egypt6.jpeg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Ramses II</figcaption>
+</div>
+<div class="fade">
+  <a href="thutmose.html9"><img src="egypt1.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <img src="egypt2.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Ramses II</figcaption>
+</div>
+</div>
+</div>
+-->
+
+
+
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="giza.html">
+  <a href="tutankhamun.html"><img src="tutankhamun1.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Tutankhamun</figcaption>
+</div>
+<div class="fade">
+  <a href="akhenaten.html"><img src="akhenaten.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Akhenaten</figcaption>
+</div>
+<div class="fade">
+  <a href="ramses.html3"><img src="ramses.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Ramses II</figcaption>
+</div>
+
+</div>
+<!--<div class="inner-grid">
+<div class="fade">
+  <a href="www.google.com3"><img src="epyramid.jpg"/></a>
+</div>
+<div class="fade">
+  <a href="www.google.com4"><img src="epyramid.jpg"/></a>
+</div>
+<div class="fade">
+  <a href="www.google.com5"><img src="epyramid.jpg"/></a>
+</div>
+</div>-->
+<div class="inner-grid">
+<div class="fade">
+  <a href="cleopetra.html"><img src="cleopetra.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Cleopatra VII</figcaption>
+</div>
+<div class="fade">
+  <a href="thutmose.html"><img src="thutmose.jpg" class="zoom" height="auto" width="auto" /> </a>
+  <figcaption style="color: white; text-align: center;size: 50px;font-size: 30px;"><br>Thutmose</figcaption>
+</div>
+<div class="fade">
+  <!--<a href="www.google.com78"><img src="epyramid.jpg"/></a> -->
+</div>
+</div>
+</div>
+
+</body>
+</html>

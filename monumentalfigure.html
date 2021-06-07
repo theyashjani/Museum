@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Monumental Figure</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:240px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Monumental Figure<br><br>
+    9th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+      This grand sculpture portrays the Maya deity Chahk as an axe-wielding personification of rain, storms, and lightning. Clutching the handle of a large axe – symbolic of lightning – Chahk is shown as the Storm God with an open mouth and pronounced cheeks as if shouting or threatening. The two holes in the axe would have been filled with blades of stone, perhaps greenstone or obsidian. Scenes from a bench at the Temple of the Chacmool at Chichen Itza and a doorjamb at Kabah confirm that multiple axe blades were common in the northern Maya lowlands. Although the left hand of this sculpture is missing, it would have likely held a battle shield, as in many depictions of the warrior Chahk. Further adding to his menacing appearance, Chahk’s headdress seems to be the head of an animal, perhaps a feline or a serpent, with its two blunt teeth protruding above his eyes. This Chahk also wears a large belt and loincloth assemblage, similar to the padded waistbelts of ballplayers, and displays a pectoral decoration, indicated by finely chiseled knots. The knotted rope and large ear flares are typical of Chahk’s attire throughout the Classic period (ca. a.d. 250-900).<br><br>
+      
+      Carved from a solid piece of limestone, the statue is one of many representations of the warlike Chahk in the Maya Lowlands during the Late and Terminal Classic periods. Its scale and stiff stature are consistent with architectural façade sculpture. Elements of this statue’s style, such as the sandals with lashings, also occur in architectural sculpture at Kabah, indicating this Chahk was originally from the Puuc hills of Yucatan and Campeche (such as Sayil). It likely formed part of a royal court building, fixing its imposing gaze on all who entered.<br><br><br>
+
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="monumentalfigure1.jpeg">
+            <img src="monumentalfigure1.jpeg" />
+        </li>
+        <li data-thumb="monumentalfigure2.jpeg">
+            <img src="monumentalfigure2.jpeg" />
+        </li>
+        <li data-thumb="monumentalfigure3.jpeg">
+            <img src="monumentalfigure3.jpeg" />
+        </li>
+        <li data-thumb="monumentalfigure4.jpeg">
+            <img src="monumentalfigure4.jpeg" />
+        </li>
+        <li data-thumb="monumentalfigure5.jpeg">
+            <img src="monumentalfigure5.jpeg" />
+        </li>
+        
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

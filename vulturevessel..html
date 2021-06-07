@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Vulture Vessel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:400px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Vulture Vessel<br><br>
+
+    1200–1521
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+    Ceramic vessels in the form of animal effigies were made in large numbers in many parts of Mexico throughout the Precolumbian era. Often used in ceremonies, the animals selected for depiction were those that played a role in myth. They served as cultural and cosmic metaphors based on their habitat and natural features.<br><br>
+
+    Birds generally symbolized the celestial realm and were associated with the sun, moon, and planet Venus; they were also considered messengers between the world of the living and the supernatural sphere. The bird depicted on this handsome tripod vessel, supported by the bird's legs and tail, probably represents a king vulture (Sarcoramphus papa) because of the characteristic fleshy protuberance (now missing) at the base of its beak. Although king vultures feed primarily on carrion, they will occasionally kill for food; they are therefore connected with human sacrifice in ancient Mexican thought. The rendering of the bird includes three significant human aspects: from its projecting "ear" flanges hang pendant ornaments; its talons are shown as hands with prominent thumbs; and its head is adorned with a pleated paper fan often seen on headdresses of Aztec deity figures. The contours of the vessel are well-balanced—the lines of the sloping wings echoing the angles of the legs—and the bulging chest of the bird is perfectly centered between its strong legs. The smooth, shiny dark red and black surface creates a pleasing contrast to the rough, matte texture of the head and feet.
+    <br><br>
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="vulturevessel.jpeg">
+            <img src="vulturevessel.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

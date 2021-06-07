@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seated figure censer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:400px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Seated Figure Censer (Incensario)<br><br>
+
+    5th–6th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+      Censers, or incensarios, have been discovered in a wide range of contexts, from the steps of temples to cave interiors, indicative of the importance of burning rituals in ancient Mesoamerica. It is thought that billowing clouds of smoke, produced by the burning of copal incense, accompanied every major ceremony in the Maya realm. Depicted on the censer illustrated here is a seated figure, perhaps a ruler, surrounded by aspects of mythological creatures that are stacked about his head and symmetrically flank his sides. The central figure is in higher relief, sitting cross-legged with arms carefully positioned in front of his chest. The position of the hands, held inward and touching, is known from sculpted stone monuments, where it carries connotations of rulership. A human head or masklike element is depicted in the figure's lap. The figure may represent a generalized concept of revered ancestor.<br><br>
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="seatedfigure.jpeg">
+            <img src="seatedfigure.jpeg" />
+        </li>
+        <li data-thumb="seatedfigure1.jpeg">
+            <img src="seatedfigure1.jpeg" />
+        </li>
+
+        <li data-thumb="seatedfigure2.jpeg">
+            <img src="seatedfigure2.jpeg" />
+        </li>
+        
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

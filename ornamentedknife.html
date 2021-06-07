@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Double Knife</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:450px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Double Bowl<br><br>
+
+    15th–early 16th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+      During Inca times, the production and distribution of ceramics was controlled by the state. Those made and used in Cuzco, the capital of the Inca empire, and its vicinity are known as Cuzco Inca style. Characterized by superb craftsmanship, these ceramics show a limited range of distinctive forms and designs but some unique and exceptionally appealing and creative shapes; the present example falls into that category. The shallow, slightly incurved bowl sits on three short supports; it has a smaller bowl inside. Two long-necked animals, a llama and a bird, are attached on one side and connected to the inner and outer bowls respectively; they serve as pouring spouts. The slender, spotted body of a third animal, probably a feline, is draped over part of the top of the larger bowl, its paws gripping the rim. The vessel is slip-painted in black and red over buff; around the outer wall is a segmented band depicting insects.<br><br>
+
+      The vessel probably served as a paccha, or ceremonial vessel used for pouring libations such as chicha (maize beer) on the earth to ensure fertility and growth of plentiful crops. The animals depicted may refer to the diverse environmental regions of the Inca empire: the long-necked seabird may symbolize the ocean in the west, the llama the high Andes mountains in the center, and the feline the rainforest in the east.<br><br>
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="storagejar1.jpeg">
+            <img src="storagejar1.jpeg" />
+        </li>
+        <li data-thumb="storagejar2.jpeg">
+            <img src="storagejar2.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

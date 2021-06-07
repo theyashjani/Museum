@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		background-color: black;
+	}
+* {
+box-sizing: border-box;
+}
+h1 {
+text-align: center;
+}
+.outer-grid {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.inner-grid {
+flex: 25%;
+max-width: 50%;
+padding: 0 4px;
+}
+.inner-grid img {
+margin-top: 8px;
+width: 100%;
+padding: 10px;
+}
+@media screen and (max-width: 800px) {
+.inner-grid {
+flex: 50%;
+max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.inner-grid {
+flex: 100%;
+max-width: 100%;
+}
+}
+a{
+  text-decoration: none;
+}
+  <style type="text/css">
+    .fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(window).on("load", function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity") == 0) {
+          $(this).fadeTo(500, 1);
+        }
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity") == 1) {
+          $(this).fadeTo(500, 0);
+        }
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+  </script>
+
+</style>
+</head>
+<body>
+<h1 style="color: white;">JURASSIC-AGE</h1>
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="velociraptor.html"><img src="velociraptor.jpg"/>
+	<figcaption style="color: white; text-align: center;size: 50px;">VELOCIRAPTOR</figcaption>
+</div></a>
+<div class="fade">
+	<a href="allosaurus.html"><img src="allosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">ALLOSAURUS</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="ankylosaurus.html"><img src="ankylosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">ANKYLOSAURUS</figcaption>
+</div>
+
+<div class="fade">
+  <a href="carnotaurus.html"><img src="carnotaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">CARNOTAURUS</figcaption>
+</div></a>
+
+<div class="fade">
+  <a href="chirostenotes.html"><img src="chirostenotes.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">CHIROSTENOTES</figcaption>
+</div>
+
+<div class="fade">
+  <a href="huayangosaurus.html"><img src="huayangosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">HUAYANGOSAURUS</figcaption>
+</div>
+
+</div>
+
+<div class="inner-grid">
+<div class="fade">
+  <a href="trex.html">
+	<img src="trex.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">TREX</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="brachiosaurus.html"><img src="brachiosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">BRACHIOSAURUS</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="spinosaurus.html"><img src="spinosaurus2.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">SPINOSAURUS</figcaption>
+</div></a>
+
+
+
+<div class="fade">
+  <a href="amargasaurus.html"><img src="amargasaurus1.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">AMARGASAURUS</figcaption>
+</div>
+
+<div class="fade">
+  <a href="dracorex.html"><img src="dracorex.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">DRACOREX</figcaption>
+</div>
+
+<div class="fade">
+  <a href="pachycephalosaurus.html"><img src="pachycephalosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">PACHYCEPHALOSAURUS</figcaption>
+</div>
+
+
+</div>
+
+
+
+<div class="inner-grid">
+<div class="fade">
+	<a href="triceratops.html"><img src="triceratops.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">TRICERATOPS</figcaption>
+</div></a>
+<br><br><br><br>
+<div class="fade">
+	<a href="stegosaurus.html"><img src="stegosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">STEGOSAURUS</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="gigantosaurus.html"><img src="giganotosaurus.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">GIGANOTOSAURUS</figcaption>
+</div></a>
+
+<div class="fade">
+  <a href="parasauropholous.html"><img src="parasauropholous.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">PARASAUROPHOLOUS</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="pterosaurs.html"><img src="pterosaurs.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">PTEROSAURS</figcaption>
+</div></a>
+
+<div class="fade">
+	<a href="stygimoloch.html"><img src="stygimoloch.jpg"/>
+  <figcaption style="color: white; text-align: center;size: 50px;">STYGIMOLOCH</figcaption>
+</div></a>
+
+</div>
+</div>
+</body>
+</html>

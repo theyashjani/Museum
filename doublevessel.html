@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Double Vessel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:450px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Double-Chambered Vessel<br><br>
+
+    5th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">A master Maya potter modeled a vignette with three characters onto the body and lids of this ritual drinking cup. The main form of the vessel is composed of two identical cylindrical chambers, connected by a central hollow bridge, each of which rests on two squarish slab feet. This style of ceramic, recognizable by a very fine reddish or gray paste fired with a reddish-black clay slip is known from the area of what is now northern Guatemala and Southern Campeche, Mexico. Artists who specialized in this blackware style in the 5th-6th centuries achieved great feats in gouged and incised designs, often on very thin walls or lids. Such a fine vessel would have been used on very special feasting occasion, perhaps later buried in the tomb of its owner by his or her descendants.<br><br>
+
+  In this scene, a large supernatural bird known as the Principal Bird Deity (PBD) perches on one lid (which is actually a false lid, fused with the chamber), and faces a kneeling humanlike figure. The bird’s large beak and caruncle protrude from its open mouth, which connects to the interior chamber of the vessel. From the beak hangs a stylized double-headed serpent. The bird’s eyes are square and marked with an L-shaped pupil, a convention that Maya artists used to depict deities with supernatural vision. The spray of feathers of the serpent-wings are modeled and incised, as are the scaley legs and talons. The bird is decked out in jade jewels: a diadem, circular earflares, and a large necklace with central pendant. A kneeling figure on the other removable lid presents the bird with a bundle in devotional tribute. He wears a loincloth, a feathered, jeweled headdress, nose ornaments, ear ornaments, and a necklace. He stares at the bird in reverence, stoic in his encounter with this resplendent being. A feline or simian creature, also wearing a necklace, bridges the two chambers of the vessel and seems to climb up the side towards the two figures on top.<br><br>
+
+  This vessel may be part of a series of three double-chambered blackware vessels featuring different scenes involving the PBD; one was excavated from a tomb at Calakmul, Mexico. Religious narratives from the late first millennium BC until the colonial period feature this creature, which has a large hooked raptor beak grabbing a serpent and animate wings in the form of stylized serpents. Artists depicted the PBD descending from the sky, perching on trees, receiving offerings from humanlike figures, or even being shot by a blowgun.<br><br><br>
+
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="doublevessel.jpeg">
+            <img src="doublevessel.jpeg" />
+        </li>
+        <li data-thumb="doublevessel1.jpeg">
+            <img src="doublevessel1.jpeg" />
+        </li>
+
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

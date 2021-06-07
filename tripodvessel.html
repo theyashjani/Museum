@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+   <title>Tripod Vessel with Date Glyph</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
+<style>
+body {
+  font-family: Arial;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.left {
+  left: 0;
+  overflow-x: hidden;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px grey; 
+}
+
+   .demo {
+    width:400px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<!--<h1>first</h1><br>-->
+
+<div class="split left">
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 23px;">Tripod Vessel with Date Glyph<br><br>
+
+    15th–early 16th century
+  </p>
+
+  <p style="padding-right: 20px;padding-left: 20px; font-size: 22px;">
+    The hourglass shape of this sizable vessel is reminiscent of the form of ceremonial braziers that were closely linked to the religious architecture in the Aztec capital Tenochtitlan. The thick-walled, heavy vessel is supported by three hollow, bulbous feet containing clappers, which produced sounds when the vessel was moved. The middle of the vessel is encircled by a broad band decorated with interlocked scrolls framed by circles. On the front is a cartouche containing the date glyph "4 Reed," which possibly refers to the year 1431 A.D., during which the third enlargement of the Main Temple at Tenochtitlan was celebrated. The band and cartouche were made in molds, as evidenced by multiple seams, and have the natural clay color in which the rest of the vessel is covered, with reddish-brown burnished slip.<br><br>
+
+    Ceramic braziers, often bearing deity images, some reaching three feet in height, were placed outside temples or in front of altars. Offerings of human and animal remains as well as aromatic incense of balls of latex, were burnt in them. The rising smoke was believed to carry the offerings to the gods.
+    <br><br>
+  </p>
+
+</div>
+
+<div class="split right">
+  <div align="center">
+  <div class="demo">
+    <ul id="lightSlider">
+        <li data-thumb="tripod1.jpeg">
+            <img src="tripod1.jpeg" />
+        </li>
+        <li data-thumb="tripod2.jpeg">
+            <img src="tripod2.jpeg" />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='https://sachinchoolur.github.io/lightslider/dist/js/lightslider.js'></script>
+<script type="text/javascript">
+   $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 9
+});
+</script>
+</div>
+     
+</body>
+</html> 

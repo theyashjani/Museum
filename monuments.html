@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		background-color: black;
+	}
+* {
+box-sizing: border-box;
+}
+h1 {
+text-align: center;
+}
+.outer-grid {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.inner-grid {
+flex: 25%;
+max-width: 50%;
+padding: 0 4px;
+}
+.inner-grid img {
+margin-top: 8px;
+width: 100%;
+padding: 10px;
+}
+@media screen and (max-width: 800px) {
+.inner-grid {
+flex: 50%;
+max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.inner-grid {
+flex: 100%;
+max-width: 100%;
+}
+}
+
+  <style type="text/css">
+    .fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(window).on("load", function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity") == 0) {
+          $(this).fadeTo(500, 1);
+        }
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity") == 1) {
+          $(this).fadeTo(500, 0);
+        }
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+  </script>
+
+</style>
+</head>
+<body>
+<h1 style="color: white;">Famous monuments of Egypt</h1>
+<br>
+<p>
+  <h1 style="color: white;text-align: left;">One of the greatest civilisations the world has ever seen, the Ancient Egyptians ruled over the lower reaches of the Nile for millennia. After a unified kingdom arose around 3100 BC, a series of dynasties and pharaohs built ever-bigger pyramids and temples before falling to the Roman Empire in 30 BC.<br><br>
+
+During this incredible long era the ancient Egyptians produced some of the most famous monuments in the world of which many have survived the ages. Many of the massive monuments were dedicated to various deities or the pharaohs themselves and were adorned with rich decorations, such as striking statues and detailed reliefs.<br><br>
+
+Such was the ingenuity and engineering prowess of the Ancient Egyptians, many of these amazing ancient monuments are still standing today. Here’s a look at the most amazing ancient Egyptian monuments:</h1><br>
+  
+</p>
+<br>
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="giza.html">
+  <img src="epyramid.jpg" /></a>
+</div>
+<div class="fade">
+	<a href="abusimbel.html"><img src="abusimbel.jpg"/></a>
+</div>
+<div class="fade">
+	<a href="www.google.com2"><img src="epyramid.jpg"/></a>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+	<a href="motuarytemple.html"><img src="motuary.jpg"/></a>
+</div>
+<div class="fade">
+	<a href="abusimbel.html"><img src="epyramid.jpg"/></a>
+</div>
+<div class="fade">
+	<a href="www.google.com5"><img src="epyramid.jpg"/></a>
+</div>
+</div>
+<div class="inner-grid">
+<div class="fade">
+	<a href="luxor.html"><img src="luxor.jpg"/></a>
+</div>
+<div class="fade">
+	<a href="www.google.com7"><img src="epyramid.jpg"/></a>
+</div>
+<div class="fade">
+	<a href="www.google.com78"><img src="epyramid.jpg"/></a>
+</div>
+</div>
+</div>
+</body>
+</html>

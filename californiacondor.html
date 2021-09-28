@@ -207,3 +207,63 @@ img.hover-shadow {
     </div>
   </div>
 </div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<br><br>
+<div style="margin-left: 2%;">
+    <b style="font-size: 25px;">NAME:</b> <i style="font-size: 25px;">California condor (Gymnogyps californianus)</i>
+    <br><br>
+    <b style="font-size: 25px;">KINGDOM(CLASSIFICATION): </b><i style="font-size: 25px;">Animal</i>
+    <br><br>
+    <b style="font-size: 25px;">VEGITATION: </b><i style="font-size: 25px;">Carnivore</i>
+    <br><br>
+    <b style="font-size: 25px;">HABITAT: </b><i style="font-size: 25px;">Open grasslands</i>
+    <br><br>
+    <b style="font-size: 25px;">Time of Extinction: </b><i style="font-size: 25px;">End of 20th century</i>
+    <br><br>
+    <b style="font-size: 25px;">Average Lifespan: </b><i style="font-size: 25px;">60 years</i>
+    <br><br>
+    <b style="font-size: 25px;">Reason of Extinction: </b><i style="font-size: 25px;">Poaching/ Hunting</i>
+    <br><br>
+    <b style="font-size: 25px;">Rivalry </b><i style="font-size: 25px;">Black bears</i>
+    <br><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background-color: black;
+  }
+* {
+box-sizing: border-box;
+}
+h1 {
+text-align: center;
+}
+.outer-grid {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.inner-grid {
+flex: 25%;
+max-width: 50%;
+padding: 0 4px;
+}
+.inner-grid img {
+margin-top: 8px;
+width: 100%;
+padding: 10px;
+}
+@media screen and (max-width: 800px) {
+.inner-grid {
+flex: 50%;
+max-width: 50%;
+}
+}
+@media screen and (max-width: 600px) {
+.inner-grid {
+flex: 100%;
+max-width: 100%;
+}
+}
+
+  <style type="text/css">
+    .fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(window).on("load", function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity") == 0) {
+          $(this).fadeTo(500, 1);
+        }
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity") == 1) {
+          $(this).fadeTo(500, 0);
+        }
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+
+  </script>
+
+</style>
+</head>
+<body>
+<h1 style="color: white;">Maya Civilization</h1>
+<br>
+<p style="color: white;text-align: left; font-size: 200%;">
+    The Maya Empire, centered in the tropical lowlands of what is now Guatemala, reached the peak of its power and influence around the sixth century A.D. The Maya excelled at agriculture, pottery, hieroglyph writing, calendar-making and mathematics, and left behind an astonishing amount of impressive architecture and symbolic artwork. Most of the great stone cities of the Maya were abandoned by A.D. 900, however, and since the 19th century scholars have debated what might have caused this dramatic decline.
+  <br><br>
+
+  Maya, Mesoamerican Indians occupying a nearly continuous territory in southern Mexico, Guatemala, and northern Belize. In the early 21st century some 30 Mayan languages were spoken by more than five million people, most of whom were bilingual in Spanish. Before the Spanish conquest of Mexico and Central America, the Maya possessed one of the greatest civilizations of the Western Hemisphere (see pre-Columbian civilizations: The earliest Maya civilization of the lowlands). They practiced agriculture, built great stone buildings and pyramid temples, worked gold and copper, and used a form of hieroglyphic writing that has now largely been deciphered.
+  <br><br>
+
+  As early as 1500 BCE the Maya had settled in villages and had developed an agriculture based on the cultivation of corn (maize), beans, and squash; by 600 CE cassava (sweet manioc) was also grown. (See also origins of agriculture: Early development: The Americas.) They began to build ceremonial centres, and by 200 CE these had developed into cities containing temples, pyramids, palaces, courts for playing ball, and plazas. The ancient Maya quarried immense quantities of building stone (usually limestone), which they cut by using harder stones such as chert. They practiced mainly slash-and-burn agriculture, but they used advanced techniques of irrigation and terracing. They also developed a system of hieroglyphic writing and highly sophisticated calendrical and astronomical systems. The Maya made paper from the inner bark of wild fig trees and wrote their hieroglyphs on books made from this paper. Those books are called codices. The Maya also developed an elaborate and beautiful tradition of sculpture and relief carving. Architectural works and stone inscriptions and reliefs are the chief sources of knowledge about the early Maya. Early Mayan culture showed the influence of the earlier Olmec civilization.
+<br>
+  
+</p>
+<br>
+
+<h2 style="color: white; text-align:center;">Below are some man made Figure of Mayan Civilization</h2>
+<br>
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="camelid figure"><img src="camelid1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Camel Lid</figcaption>
+</div>
+<div class="fade">
+  <a href="coiledserpent.html"><img src="coiledserpent1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Coiled Serpent</figcaption>
+</div>
+<div class="fade">
+  <a href="doublevessel.html"><img src="doublevessel.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Double vessel</figcaption>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="carvedbowl.html"><img src="carvedbowl1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Carved Bowl</figcaption>
+</div>
+<div class="fade">
+  <a href="corndeity.html"><img src="corndeity1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Corn Deity</figcaption>
+</div>
+<div class="fade">
+  <a href="earflare.html"><img src="earflare1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Ear flare</figcaption>
+</div>
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="censerking"><img src="censorkking.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Censor King</figcaption>
+</div>
+<div class="fade">
+  <a href="deityfigure.html"><img src="deity.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Deity Figure</figcaption>
+</div>
+<div class="fade">
+  <a href="frognecklace.html"><img src="frognecklace.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Frog necklace</figcaption>
+</div>
+</div>
+</div>
+
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="headpendent.html"><img src="headpendent1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Head pendent</figcaption>
+</div>
+<div class="fade">
+  <a href="mirrorbearer.html"><img src="mirrorbearer1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Mirror Bearer</figcaption>
+</div>
+<div class="fade">
+  <a href="raingod.html"><img src="raingod1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Rain God</figcaption>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="headwaterdeity.html"><img src="headwaterdeity1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Head of Water Deity</figcaption>
+</div>
+<div class="fade">
+  <a href="monumentalfigure.html"><img src="monumentalfigure1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Monumental Figure</figcaption>
+</div>
+<div class="fade">
+  <a href="seatedfigure.html"><img src="seatedfigure.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Seated Figure</figcaption>
+</div>
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="maizedeity.html"><img src="maizedeity1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Maize deity</figcaption>
+</div>
+<div class="fade">
+  <a href="ornamentedknife.html"><img src="ornamentedknife.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Ornamental Knife</figcaption>
+</div>
+<div class="fade">
+  <a href="spoutedjar.html"><img src="jar1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Spouted Jar</figcaption>
+</div>
+</div>
+</div>
+
+
+<div class="outer-grid">
+<div class="inner-grid">
+
+<div class="fade">
+ <a href="storagejar.html"><img src="storagejar1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Storage Jar</figcaption>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="tripodvesel.html"><img src="tripod1.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Tripod Vessel</figcaption>
+</div>
+
+</div>
+<div class="inner-grid">
+<div class="fade">
+  <a href="waterdeity.html"><img src="waterdeity.jpeg"/></a>
+  <figcaption style="color: white; text-align: center;size: 50px;">Water deity</figcaption>
+</div>
+</div>
+</div>
+
+</body>
+</html>

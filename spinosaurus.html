@@ -207,3 +207,87 @@ img.hover-shadow {
     </div>
   </div>
 </div>
+
+  
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<br><br><br><br>
+
+<div align="center" style="border-style: solid black;">
+<img src="spinosaurus comparision.jpg" width="800" height="400" >
+</div>
+
+<figcaption style="text-align: center; font-style: italic; font-size: 30px; ">SPINOSAURUS VS HUMAN</figcaption>
+
+<br><br><br><br>
+
+<div align="left" style="margin-left: 20%;">
+<img style="padding-right: 3%;" src="spinosaurus timeline.jpg"  width="450" height="190">
+<img style="padding-left: 3%;" src="spinosaurus map.jpg"  width="450" height="190">
+</div>
+
+<br>
+
+<div style="margin-left: 2%;">
+  <b style="font-size: 25px;">Name:</b> <i style="font-size: 25px;">Spinosaurus</i>
+    <br><br>
+    <b style="font-size: 25px;">Length: </b><i style="font-size: 25px;">15 - 16 m</i>
+    <br><br>
+    <b style="font-size: 25px;">Height: </b><i style="font-size: 25px;">4.3 - 7 m</i>
+    <br><br>
+    <b style="font-size: 25px;">Weight: </b><i style="font-size: 25px;">6,400 - 7,500 kg</i>
+    <br><br>
+    <b style="font-size: 25px;">Kingdom (Classification): </b><i style="font-size: 25px;">Animalia</i>
+    <br><br>
+    <b style="font-size: 25px;">Vegetation: </b><i style="font-size: 25px;">Carnivoree</i>
+    <br><br>
+    <b style="font-size: 25px;">Habitat - Place of residing: </b><i style="font-size: 25px;">North Africa</i>
+    <br><br>
+    <b style="font-size: 25px;">Average Lifespan: </b><i style="font-size: 25px;">NA</i>
+    <br><br>
+    <b style="font-size: 25px;">Extinction Duration: </b><i style="font-size: 25px;">97 - 112 million years ago</i>
+    <br><br>
+    <b style="font-size: 25px;">Reason of Extinction: </b><i style="font-size: 25px;">Cretaceous - Paleogene extinction event</i>
+    <br><br>
+    <b style="font-size: 25px;">Rivalry: </b><i style="font-size: 25px;">Bahariasaurus, Carcharodontosaurus</i>
+    <br><br>
+</div>        
+
+</body>
+</html>

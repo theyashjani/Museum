@@ -208,3 +208,85 @@ img.hover-shadow {
     </div>
   </div>
 </div>
+
+  
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<br><br>
+<!--
+<div align="center" style="border-style: solid black;">
+<img src="#" width="800" height="400" >
+</div>
+
+<figcaption style="text-align: center; font-style: italic; font-size: 30px; ">STYGIMOLOCH VS HUMAN</figcaption>
+
+<br><br><br><br>
+<div align="left" style="margin-left: 20%;">
+<img style="padding-right: 3%;" src="#"  width="450" height="190">
+<img style="padding-left: 3%;" src="#"  width="450" height="190">
+</div>
+-->
+<div style="margin-left: 2%;">
+  <b style="font-size: 25px;">Name:</b> <i style="font-size: 25px;">Stygimoloch</i>
+    <br><br>
+    <b style="font-size: 25px;">Length: </b><i style="font-size: 25px;">3.53 m</i>
+    <br><br>
+    <b style="font-size: 25px;">Height: </b><i style="font-size: 25px;">1.68 m</i>
+    <br><br>
+    <b style="font-size: 25px;">Weight: </b><i style="font-size: 25px;">78 kg</i>
+    <br><br>
+    <b style="font-size: 25px;">Kingdom (Classification): </b><i style="font-size: 25px;">Animalis</i>
+    <br><br>
+    <b style="font-size: 25px;">Vegetation: </b><i style="font-size: 25px;">Herbivore</i>
+    <br><br>
+    <b style="font-size: 25px;">Habitat - Place of residing: </b><i style="font-size: 25px;">Northern California</i>
+    <br><br>
+    <b style="font-size: 25px;">Average Lifespan </b><i style="font-size: 25px;">NA</i>
+    <br><br>
+    <b style="font-size: 25px;">Extinction Duration: </b><i style="font-size: 25px;">66 - 66.8 million</i>
+    <br><br>
+    <b style="font-size: 25px;">Reason of Extinction: </b><i style="font-size: 25px;">An asteroid impact</i>
+    <br><br>
+    <b style="font-size: 25px;">Rivalry: </b><i style="font-size: 25px;">Spinosaurus, Ceratosaurus, Herrerasaurus, Deinonychus, and Metriacanthosaurus</i>
+    <br><br>
+</div>
+        
+
+</body>
+</html>

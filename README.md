@@ -8,3 +8,5 @@ are embedded, so user get knowledge about Human lifestyle and Prehistoric
 lifestyles as well.
 
 This website also contains data of Prehistoric life of Land, Water and Flying animals.
+
+It also consists of 3D view of Museums.
